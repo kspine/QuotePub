@@ -5,9 +5,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="国内证券">
-      <UniqueIdentifier>{4e424ec7-217b-401d-915a-3d17689878ed}</UniqueIdentifier>
-    </Filter>
     <Filter Include="第三方">
       <UniqueIdentifier>{78a59246-32b2-4980-8a8a-ad402f95ffa6}</UniqueIdentifier>
     </Filter>
@@ -20,62 +17,89 @@
     <Filter Include="界面">
       <UniqueIdentifier>{05edb991-93d8-4836-9589-5d867992f9d5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="期货">
-      <UniqueIdentifier>{46b7a774-1ed7-4ae2-be13-3b4fbef22148}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="期货\中国金融期货交易所">
-      <UniqueIdentifier>{c2472be9-1427-4efc-a5b2-0a1d52fbc254}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="期货\大商所">
-      <UniqueIdentifier>{a873a722-3481-4428-b3bc-03f77455e3e6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="期货\上期所">
-      <UniqueIdentifier>{5ef7a2e4-6949-46e5-b438-c9ee408c38c9}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="期货\郑商所">
-      <UniqueIdentifier>{0e05829c-b1cf-4dc4-ade5-7a630bd2f75e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="黄金">
-      <UniqueIdentifier>{717e3239-b4c2-4c3d-8762-495061684dad}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="国内证券\上海证券交易所">
-      <UniqueIdentifier>{63072cce-01d5-4774-960c-9f600b420df0}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="国内证券\上海证券交易所\港股通">
-      <UniqueIdentifier>{f78ca127-db6d-4bf4-998a-c5428c20e7da}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="国内证券\深圳证券交易所">
-      <UniqueIdentifier>{3c7a8786-3655-4f3f-b9fa-ead3e2d9b261}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="国内证券\深圳证券交易所\DBF">
-      <UniqueIdentifier>{ea5bed95-a74e-45fe-8dd7-b9edeac8ab76}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="国内证券\全国中小企业股份转让系统">
-      <UniqueIdentifier>{ca9fa57e-32f5-4522-a02c-880b8768262a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="国内证券\深圳证券交易所\TXT">
-      <UniqueIdentifier>{e7f132d5-aba6-48f2-bff5-f38bbff41618}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="国内证券\深圳证券交易所\FIX/FAST">
-      <UniqueIdentifier>{adb1b84f-3789-46ed-82c6-de6a9b4f8ed2}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="黄金\上海黄金交易所">
-      <UniqueIdentifier>{437f249b-994a-4b15-a998-a8dd8767ea1b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="国内证券\上海证券交易所\DBF">
-      <UniqueIdentifier>{b00eede3-5f6a-4124-b477-5abfcce15528}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="国内证券\上海证券交易所\FIX/FAST">
-      <UniqueIdentifier>{883fc8cb-7fad-496d-b851-dff21aff1f62}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="国内证券\上海证券交易所\TXT">
-      <UniqueIdentifier>{96450a2d-e639-463b-8072-2c4cd7e605c2}</UniqueIdentifier>
-    </Filter>
     <Filter Include="第三方\FAST">
       <UniqueIdentifier>{05bceab4-8f45-47fd-bfc6-5d63c1a17623}</UniqueIdentifier>
     </Filter>
     <Filter Include="第三方\FIX">
       <UniqueIdentifier>{d5bbd55b-3298-4d56-910e-be9e9cd20c7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="金融市场">
+      <UniqueIdentifier>{9cf6e7c3-2228-4902-9ccb-469016f2c08c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="金融市场\证券">
+      <UniqueIdentifier>{4e424ec7-217b-401d-915a-3d17689878ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="金融市场\证券\上海证券交易所">
+      <UniqueIdentifier>{63072cce-01d5-4774-960c-9f600b420df0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="金融市场\证券\上海证券交易所\港股通">
+      <UniqueIdentifier>{f78ca127-db6d-4bf4-998a-c5428c20e7da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="金融市场\证券\上海证券交易所\DBF">
+      <UniqueIdentifier>{b00eede3-5f6a-4124-b477-5abfcce15528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="金融市场\证券\上海证券交易所\FIX/FAST">
+      <UniqueIdentifier>{883fc8cb-7fad-496d-b851-dff21aff1f62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="金融市场\证券\上海证券交易所\TXT">
+      <UniqueIdentifier>{96450a2d-e639-463b-8072-2c4cd7e605c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="金融市场\证券\深圳证券交易所">
+      <UniqueIdentifier>{3c7a8786-3655-4f3f-b9fa-ead3e2d9b261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="金融市场\证券\深圳证券交易所\DBF">
+      <UniqueIdentifier>{ea5bed95-a74e-45fe-8dd7-b9edeac8ab76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="金融市场\证券\深圳证券交易所\TXT">
+      <UniqueIdentifier>{e7f132d5-aba6-48f2-bff5-f38bbff41618}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="金融市场\证券\深圳证券交易所\FIX/FAST">
+      <UniqueIdentifier>{adb1b84f-3789-46ed-82c6-de6a9b4f8ed2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="金融市场\证券\全国中小企业股份转让系统">
+      <UniqueIdentifier>{ca9fa57e-32f5-4522-a02c-880b8768262a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="金融市场\期货">
+      <UniqueIdentifier>{46b7a774-1ed7-4ae2-be13-3b4fbef22148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="金融市场\期货\中国金融期货交易所">
+      <UniqueIdentifier>{c2472be9-1427-4efc-a5b2-0a1d52fbc254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="金融市场\期货\大商所">
+      <UniqueIdentifier>{a873a722-3481-4428-b3bc-03f77455e3e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="金融市场\期货\上期所">
+      <UniqueIdentifier>{5ef7a2e4-6949-46e5-b438-c9ee408c38c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="金融市场\期货\郑商所">
+      <UniqueIdentifier>{0e05829c-b1cf-4dc4-ade5-7a630bd2f75e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="金融市场\黄金">
+      <UniqueIdentifier>{717e3239-b4c2-4c3d-8762-495061684dad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="金融市场\黄金\上海黄金交易所">
+      <UniqueIdentifier>{437f249b-994a-4b15-a998-a8dd8767ea1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="文档">
+      <UniqueIdentifier>{45442137-bfbe-4735-a71a-2bf0ce4797ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DBF">
+      <UniqueIdentifier>{55f40c5b-72f8-4c88-9534-c28401227132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="金融市场\证券\香港联合交易所">
+      <UniqueIdentifier>{ac775fc9-d535-4785-9eaa-436b3df9b18d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="金融市场\期权">
+      <UniqueIdentifier>{39288696-79dd-4c1d-9a7e-0eaf86e03297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="配置文件">
+      <UniqueIdentifier>{e3275381-b68b-48ef-8493-1ba91de109f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="日志">
+      <UniqueIdentifier>{6bc25fcb-fbb9-4bb2-b77d-6843813096ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="金融市场\证券\证券代码分配规则">
+      <UniqueIdentifier>{5cefb6a4-a57e-41cd-bf2b-5eb3367737b0}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -97,8 +121,9 @@
     <ClInclude Include="zeromq\ZeroMQWrapper.h">
       <Filter>第三方\ZeroMQ</Filter>
     </ClInclude>
-    <ClInclude Include="Quote.h">
-      <Filter>国内证券</Filter>
+    <ClInclude Include="Quote.h" />
+    <ClInclude Include="DBFReader.h">
+      <Filter>DBF</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -117,6 +142,9 @@
     <ClCompile Include="zeromq\ZeroMQWrapper.cpp">
       <Filter>第三方\ZeroMQ</Filter>
     </ClCompile>
+    <ClCompile Include="DBFReader.cpp">
+      <Filter>DBF</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="QuotePub.rc">
@@ -128,58 +156,58 @@
       <Filter>资源文件</Filter>
     </None>
     <None Include="文档\证券\全国中小企业股份转让系统\全国中小企业股份转让系统交易支持平台数据接口规范(V1.0.1).doc">
-      <Filter>国内证券\全国中小企业股份转让系统</Filter>
+      <Filter>金融市场\证券\全国中小企业股份转让系统</Filter>
     </None>
     <None Include="文档\证券\上交所\show2003.dbf">
-      <Filter>国内证券\上海证券交易所\DBF</Filter>
+      <Filter>金融市场\证券\上海证券交易所\DBF</Filter>
     </None>
     <None Include="文档\证券\上交所\港股通市场接口相关样例文件.rar">
-      <Filter>国内证券\上海证券交易所\港股通</Filter>
+      <Filter>金融市场\证券\上海证券交易所\港股通</Filter>
     </None>
     <None Include="文档\证券\上交所\上海证券交易所港股通市场参与者 接口规格说明书(港股交易)1.02版.doc">
-      <Filter>国内证券\上海证券交易所\港股通</Filter>
+      <Filter>金融市场\证券\上海证券交易所\港股通</Filter>
     </None>
     <None Include="文档\证券\上交所\上海证券交易所 综合业务平台 市场参与者接口规格说明书1.35版.doc">
-      <Filter>国内证券\上海证券交易所\FIX/FAST</Filter>
+      <Filter>金融市场\证券\上海证券交易所\FIX/FAST</Filter>
     </None>
     <None Include="文档\证券\上交所\上海证券交易所市场参与者EzSTEP通用数据库接口规格说明书1.00版.pdf">
-      <Filter>国内证券\上海证券交易所\FIX/FAST</Filter>
+      <Filter>金融市场\证券\上海证券交易所\FIX/FAST</Filter>
     </None>
     <None Include="文档\证券\上交所\上海证券交易所竞价撮合平台市场参与者接口规格说明书1.27版.doc">
-      <Filter>国内证券\上海证券交易所\FIX/FAST</Filter>
+      <Filter>金融市场\证券\上海证券交易所\FIX/FAST</Filter>
     </None>
     <None Include="文档\证券\上交所\关于竞价撮合平台FAST行情分阶段提速安排的通知.pdf">
-      <Filter>国内证券\上海证券交易所\FIX/FAST</Filter>
+      <Filter>金融市场\证券\上海证券交易所\FIX/FAST</Filter>
     </None>
     <None Include="文档\证券\上交所\轻量级STEP会话层接口规范_V1.00α1.pdf">
-      <Filter>国内证券\上海证券交易所\FIX/FAST</Filter>
+      <Filter>金融市场\证券\上海证券交易所\FIX/FAST</Filter>
     </None>
     <None Include="文档\证券\深交所\sjshq.dbf">
-      <Filter>国内证券\深圳证券交易所\DBF</Filter>
+      <Filter>金融市场\证券\深圳证券交易所\DBF</Filter>
     </None>
     <None Include="文档\证券\深交所\深圳证券交易所数据接口规范（Ver4.71）.pdf">
-      <Filter>国内证券\深圳证券交易所\DBF</Filter>
+      <Filter>金融市场\证券\深圳证券交易所\DBF</Filter>
     </None>
     <None Include="文档\证券\深交所\深圳证券交易所Binary交易数据接口规范（Ver1.00 γ）.pdf">
-      <Filter>国内证券\深圳证券交易所\FIX/FAST</Filter>
+      <Filter>金融市场\证券\深圳证券交易所\FIX/FAST</Filter>
     </None>
     <None Include="文档\证券\深交所\深圳证券交易所Binary行情数据接口规范（Ver1.00 γ）.pdf">
-      <Filter>国内证券\深圳证券交易所\FIX/FAST</Filter>
+      <Filter>金融市场\证券\深圳证券交易所\FIX/FAST</Filter>
     </None>
     <None Include="文档\证券\深交所\深圳证券交易所STEP交易数据接口规范（Ver1.00 γ）.pdf">
-      <Filter>国内证券\深圳证券交易所\FIX/FAST</Filter>
+      <Filter>金融市场\证券\深圳证券交易所\FIX/FAST</Filter>
     </None>
     <None Include="文档\证券\深交所\深圳证券交易所STEP行情数据接口规范（Ver1.00 γ）.pdf">
-      <Filter>国内证券\深圳证券交易所\FIX/FAST</Filter>
+      <Filter>金融市场\证券\深圳证券交易所\FIX/FAST</Filter>
     </None>
     <None Include="文档\证券\深交所\深圳证券交易所数据文件交换接口规范（Ver1.00 γ）.pdf">
-      <Filter>国内证券\深圳证券交易所\FIX/FAST</Filter>
+      <Filter>金融市场\证券\深圳证券交易所\FIX/FAST</Filter>
     </None>
     <None Include="文档\证券\深交所\深圳证券交易所第五版交易系统接口规范开发指南（Ver1.00 γ）.pdf">
-      <Filter>国内证券\深圳证券交易所\FIX/FAST</Filter>
+      <Filter>金融市场\证券\深圳证券交易所\FIX/FAST</Filter>
     </None>
     <None Include="文档\证券\深交所\轻量级STEP会话层接口规范（LFIXT会话协议）Version 1.00 α 2.pdf">
-      <Filter>国内证券\深圳证券交易所\FIX/FAST</Filter>
+      <Filter>金融市场\证券\深圳证券交易所\FIX/FAST</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -191,9 +219,6 @@
     <Text Include="dbf.txt">
       <Filter>第三方\DBF</Filter>
     </Text>
-    <Text Include="行情数据接口规范.txt">
-      <Filter>国内证券</Filter>
-    </Text>
     <Text Include="QuickFIX.txt">
       <Filter>第三方\FIX</Filter>
     </Text>
@@ -203,5 +228,9 @@
     <Text Include="Fix8.txt">
       <Filter>第三方\FIX</Filter>
     </Text>
+    <Text Include="行情数据接口规范.txt">
+      <Filter>金融市场</Filter>
+    </Text>
+    <Text Include="Text.txt" />
   </ItemGroup>
 </Project>

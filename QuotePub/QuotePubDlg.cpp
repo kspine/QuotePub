@@ -8,6 +8,7 @@
 #include "afxdialogex.h"
 
 #include "zeromq/ZeroMQWrapper.h"
+#include "DBFReader.h"
 
 
 #ifdef _DEBUG
@@ -159,7 +160,11 @@ HCURSOR CQuotePubDlg::OnQueryDragIcon()
 void CQuotePubDlg::OnBnClickedButton1()
 {
 	// TODO: 在此添加控件通知处理程序代码
+	DBFReader * dbf = new DBFReader();
+	dbf->readDBF("E:\\Quote\\QuotePub\\QuotePub\\文档\\证券\\上交所\\show2003.dbf");
 
+
+	/*
 	ZeroMQWrapper * mq = new ZeroMQWrapper();
 	mq->init();
 	while(true)
@@ -168,4 +173,5 @@ void CQuotePubDlg::OnBnClickedButton1()
 		mq->pub(msg, strlen(msg));
 	}
 	mq->cleanup();
+	*/
 }
